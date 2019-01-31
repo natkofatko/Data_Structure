@@ -13,7 +13,16 @@ public class App {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Stack<String> myStack = new Stack<String>();
+		myStack.push("Joe");
+		myStack.push("Natalia");
+		myStack.push("Zoe");
+
+		System.out.println(myStack.size());
+		System.out.println(myStack.pop());
+		System.out.println(myStack.pop());
+		System.out.println(myStack.pop());
+		System.out.print(myStack.size());
 
 	}
 
